@@ -6,11 +6,6 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-    <style>
-        body {
-            padding-top: 56px;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -22,30 +17,27 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> Startseite</a>
+                        <a class="nav-link" href="{{ '/' | relative_url }}">Startseite</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/about/' | relative_url }}"><i class="fas fa-user"></i> Über mich</a>
+                        <a class="nav-link" href="{{ '/about/' | relative_url }}">Über mich</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/probleme/' | relative_url }}"><i class="fas fa-exclamation-circle"></i> Probleme und Beschwerden</a>
+                        <a class="nav-link" href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/korrespondenz/' | relative_url }}"><i class="fas fa-envelope"></i> Korrespondenz</a>
+                        <a class="nav-link" href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/analyse/' | relative_url }}"><i class="fas fa-gavel"></i> Rechtliche Analyse</a>
+                        <a class="nav-link" href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/aufruf/' | relative_url }}"><i class="fas fa-bullhorn"></i> Fazit und Aufruf zum Handeln</a>
+                        <a class="nav-link" href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="hero">
-        <h1>{{ site.title }}</h1>
-    </div>
     <main class="container">
         {{ content }}
     </main>
@@ -58,6 +50,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
 
