@@ -4,27 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <style>
+        /* Personaliza tu CSS adicional aquí */
+        body {
+            padding-top: 56px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="{{ '/' | relative_url }}">Startseite</a></li>
-            <li><a href="{{ '/about/' | relative_url }}">Über mich</a></li>
-            <li><a href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a></li>
-            <li><a href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a></li>
-            <li><a href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a></li>
-            <li><a href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/' | relative_url }}">Startseite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/about/' | relative_url }}">Über mich</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
+    <main class="container">
         {{ content }}
     </main>
-    <footer>
-        <p>&copy; 2024 Mein Kampf um Gerechtigkeit</p>
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>&copy; 2024 Mein Kampf um Gerechtigkeit</small>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
