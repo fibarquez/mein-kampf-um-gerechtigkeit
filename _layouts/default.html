@@ -8,39 +8,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/' | relative_url }}">Startseite</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/about/' | relative_url }}">Über mich</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="hero">
+    <header>
         <h1>{{ site.title }}</h1>
-    </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Startseite</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">Über mich</a></li>
+            <li><a href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a></li>
+            <li><a href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a></li>
+            <li><a href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a></li>
+            <li><a href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a></li>
+        </ul>
+    </nav>
     <main class="container content">
         {{ content }}
     </main>
