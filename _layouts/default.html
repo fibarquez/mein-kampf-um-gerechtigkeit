@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Startseite</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">Über mich</a></li>
+            <li><a href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a></li>
+            <li><a href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a></li>
+            <li><a href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a></li>
+            <li><a href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a></li>
+        </ul>
+    </nav>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; 2024 Mein Kampf um Gerechtigkeit</p>
+    </footer>
+</body>
+</html>
