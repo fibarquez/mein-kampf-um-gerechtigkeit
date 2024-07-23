@@ -1,0 +1,11 @@
+title: Mein Kampf um Gerechtigkeit
+description: Ein Blog über meine Erfahrungen mit Diskriminierung und Missmanagement bei der ILB.
+baseurl: ""
+url: "https://fibarquez.github.io/mein-kampf-um-gerechtigkeit"
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
