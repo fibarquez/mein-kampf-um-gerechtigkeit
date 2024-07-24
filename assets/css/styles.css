@@ -1,183 +1,42 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-    padding-top: 120px; /* Ajuste para el espacio del navbar fijo */
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-header {
-    background: #2c3e50;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 300;
-    transition: color 0.3s ease;
-}
-
-header h1:hover {
-    color: #18bc9c;
-}
-
-nav {
-    background: #34495e;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 80px; /* Ajuste para el espacio del título */
-    position: fixed;
-    width: 100%;
-    top: 70px; /* Ajuste para estar debajo del header */
-    z-index: 999;
-}
-
-nav ul {
-    list-style: none;
-    display: inline-block;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #18bc9c;
-}
-
-main {
-    max-width: 1200px;
-    margin: 5rem auto;
-    padding: 2rem;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    animation: fadeIn 1s ease-in-out;
-}
-
-footer {
-    background: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: relative; /* Cambiar a relative */
-    width: 100%;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 2rem;
-}
-
-h1, h2, h3 {
-    color: #2c3e50;
-    margin-bottom: 1rem;
-}
-
-p {
-    margin-bottom: 1rem;
-}
-
-a {
-    color: #18bc9c;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.post {
-    margin-bottom: 2rem;
-    transition: transform 0.3s ease;
-}
-
-.post:hover {
-    transform: scale(1.02);
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.hero {
-    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin: 0;
-}
-
-/* Additional Styles for Better Readability */
-.content {
-    padding: 2rem;
-}
-
-.post-meta {
-    font-size: 0.9rem;
-    color: #999;
-    margin-bottom: 1rem;
-}
-
-.post-title {
-    font-size: 1.5rem;
-    color: #2c3e50;
-    margin-bottom: 0.5rem;
-}
-
-.post-content {
-    font-size: 1rem;
-    color: #666;
-}
-
-.subscribe-link {
     display: block;
-    margin-top: 2rem;
-    text-align: center;
 }
 
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 
 

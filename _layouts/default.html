@@ -14,7 +14,13 @@
     <nav>
         <ul>
             <li><a href="{{ '/' | relative_url }}">Startseite</a></li>
-            <li><a href="{{ '/about/' | relative_url }}">Über mich</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Über mich</a>
+                <div class="dropdown-content">
+                    <a href="{{ '/about/' | relative_url }}">Profil</a>
+                    <a href="{{ '/contact/' | relative_url }}">Kontakt</a>
+                </div>
+            </li>
             <li><a href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a></li>
             <li><a href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a></li>
             <li><a href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a></li>
@@ -31,6 +37,8 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 </html>
+
 
