@@ -1,6 +1,3 @@
-title: Mein Kampf um Gerechtigkeit
-email: fernando.barriga@proton.me
-description: "Meine Erfahrungen mit Diskriminierung und Missmanagement bei der ILB"
-baseurl: "" # Indica que el sitio está en la raíz de tu dominio
-url: "https://fibarquez.github.io" # La URL de tu GitHub Pages
+theme: jekyll-theme-leap-day
+
 
