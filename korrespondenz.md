@@ -10,8 +10,13 @@ Hier finden Sie die Korrespondenz und die Dokumente, die als Beweise dienen.
 ## Dokumente
 
 - [Absage von Trettin Gespräch](/mein-kampf-um-gerechtigkeit/documents/AbsagevonTrettin_Gespräch_Mi17Juli2024.pdf)
+- [Aufenthaltstitel Zusatzblatt Arbeitsgenehmigung](/mein-kampf-um-gerechtigkeit/documents/Aufenthaltstitel_Zusatzblatt_Arbeitsgenehmigung_17.07.2024_um11.pdf)
+- [Berufliche Situation Korrespondenz Oliver Vogel](/mein-kampf-um-gerechtigkeit/documents/Berufliche Situation_Korrespondenz_OliverVogel_15.07.2024.pdf)
 - [Konversation mit dem Personalrat](/mein-kampf-um-gerechtigkeit/documents/ConversacionconPersonalrat.pdf)
 - [Dringende Klärung an Oliver Vogel](/mein-kampf-um-gerechtigkeit/documents/DrigendKlärung_anOliverVogel_Do18Juli2024.pdf)
+- [Erforderliche Unterlage für das Visumsverfahren](/mein-kampf-um-gerechtigkeit/documents/ErforderlicheUnterlagefürdasVisumsverfahren_Do_02.05.2024.pdf)
+- [Erforderliche Unterlagen für das Visum Oliver Vogel](/mein-kampf-um-gerechtigkeit/documents/ErforderlicheUnterlagenfürdasVisum_OliverVogel_02.05.2024.pdf)
+- [Erforderliche Unterlagen für das Visum Trettin](/mein-kampf-um-gerechtigkeit/documents/ErforderlicheUnterlagenfürdasVisum_Trettin_02.05.2024.pdf)
 - [Gesprächeinladung von Breier](/mein-kampf-um-gerechtigkeit/documents/Gesprächeinladung_vonBreier_Sa20Juli2024.pdf)
 - [Herr Barriga Dokument](/mein-kampf-um-gerechtigkeit/documents/HerrBarriga_Do18Juli2024.pdf)
 - [Heutiges Gespräch mit Frau Trettin](/mein-kampf-um-gerechtigkeit/documents/HeutigesGespräch_26_Juni_24_F_Trettin.pdf)
