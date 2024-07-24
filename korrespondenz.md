@@ -12,4 +12,7 @@ Im Folgenden finden Sie die E-Mail-Korrespondenz mit verschiedenen Mitarbeitern 
 ![Email Screenshot](assets/images/email-screenshot.png)
 
 ## Dokumente
-[PDF herunterladen](assets/documents/document.pdf)
+
+- [Absage von Trettin Gespräch](documents/AbsagevonTrettin_Gespräch_Mi17Juli2024.pdf)
+- [Information bezüglich meines Emails Zugangs](documents/InformationbezüglichmeinesEmailsZugangs_Do18Juli2024.pdf)
+- [Screenshot von der Absage](documents/screenshotvonderAbsage_Mi17Juli2024_um10:19.pdf)
