@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 header, footer {
@@ -13,6 +14,7 @@ header, footer {
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -23,16 +25,27 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
 }
 
 .post {
     margin-bottom: 2rem;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -42,5 +55,10 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #4CAF50;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
 }
 
