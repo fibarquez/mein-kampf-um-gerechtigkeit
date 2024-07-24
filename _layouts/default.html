@@ -8,26 +8,37 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-3">
         <h1>{{ site.title }}</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="{{ '/' | relative_url }}">Startseite</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Über mich</a>
-                <div class="dropdown-content">
-                    <a href="{{ '/about/' | relative_url }}">Profil</a>
-                    <a href="{{ '/contact/' | relative_url }}">Kontakt</a>
-                </div>
-            </li>
-            <li><a href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a></li>
-            <li><a href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a></li>
-            <li><a href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a></li>
-            <li><a href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">Startseite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/about/' | relative_url }}">Über mich</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/probleme/' | relative_url }}">Probleme und Beschwerden</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/korrespondenz/' | relative_url }}">Korrespondenz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/analyse/' | relative_url }}">Rechtliche Analyse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/aufruf/' | relative_url }}">Fazit und Aufruf zum Handeln</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main class="container content">
+    <main class="container content mt-4">
         {{ content }}
     </main>
     <footer class="py-4 bg-dark text-white-50">
